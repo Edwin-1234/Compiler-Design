@@ -41,7 +41,7 @@ int calculate(char *op1,char *op2, char optr)
                 break;
     case '/': 
                 if(atoi(op2)!=0)
-                    retval = atoi(op1)+atoi(op2);
+                    retval = atoi(op1)/atoi(op2);
                 break;
     default:
                 break;
